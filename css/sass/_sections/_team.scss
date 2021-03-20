@@ -1,0 +1,42 @@
+.team {
+  figure {
+    ul {
+      position: absolute;
+      opacity: 0;
+      display: flex;
+
+      li {
+        a {
+          font-size: 1.5rem;
+          background-color: $active-color;
+          color: $primary-color;
+          padding: 1rem;
+          border-right: 1px solid $primary-color;
+          &.active {
+            background-color: $primary-color;
+            color: $active-color;
+          }
+          &:hover {
+            color: $active-color;
+            background-color: $primary-color;
+          }
+        }
+      }
+    }
+  }
+  figure:hover {
+    box-shadow: 5px 10px $secondary-color;
+    .overlay {
+      opacity: 0.8;
+    }
+    ul {
+      top: 45%;
+      left: 10%;
+      opacity: 1;
+    }
+  }
+
+  img {
+    border-radius: 0;
+  }
+}

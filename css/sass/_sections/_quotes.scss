@@ -1,0 +1,22 @@
+.quotes {
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: #333;
+  }
+  h4 {
+    font-size: 1.4rem;
+  }
+  p {
+    &::before {
+      @include p-line;
+    }
+    font-family: "Kaushan Script";
+    margin-top: 1rem;
+    font-size: 2rem;
+  }
+  @media (max-width: 400px) {
+    p {
+      font-size: 1.3rem;
+    }
+  }
+}

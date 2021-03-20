@@ -1,0 +1,23 @@
+.services {
+  .row {
+    text-align: left;
+  }
+  hr {
+    margin-bottom: 2rem;
+  }
+  .services__content h3 {
+    font: {
+      weight: 400;
+      size: 1.5rem;
+      family: "Montserrat";
+    }
+  }
+
+  .icon__wrapper {
+    margin: 0 2rem;
+    i {
+      font-size: 2rem;
+      color: $secondary-color;
+    }
+  }
+}

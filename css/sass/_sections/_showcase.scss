@@ -1,0 +1,149 @@
+.showcase {
+  color: #fff;
+  .container {
+    width: 95%;
+  }
+
+  .carousel {
+    margin-top: 5rem;
+  }
+  h3 {
+    font-family: "Kaushan Script";
+    font-size: 3rem;
+  }
+  h2 {
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 10rem;
+  }
+  .carousel-indicators {
+    position: static;
+    margin-top: 5rem;
+  }
+
+  .button_wrapper {
+    margin-top: 3rem;
+    .showcase__btn {
+      @include info-btn;
+    }
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .showcase {
+    padding: 2rem 2rem;
+    .carousel-inner {
+      margin-bottom: 2rem;
+    }
+    .button_wrapper {
+      margin-top: 8rem;
+    }
+    .carousel-indicators {
+      position: static;
+      margin-top: 4rem;
+    }
+
+    h3 {
+      font-size: 1em;
+    }
+    h2 {
+      font-size: 1.5em;
+    }
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .showcase {
+    h3 {
+      font-size: 2em;
+    }
+    h2 {
+      font-size: 3em;
+    }
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .showcase {
+    h3 {
+      font-size: 2.5em;
+    }
+    h2 {
+      font-size: 3.5em;
+    }
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .showcase {
+    h3 {
+      font-size: 3rem;
+    }
+    h2 {
+      font-size: 8rem;
+    }
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
+
+// @media only screen and (max-width: 400px) {
+//   .showcase {
+//     h3 {
+//       font-size: 1em;
+//     }
+//     h2 {
+//       font-size: 2em;
+//     }
+//   }
+// }
+
+// @media (max-width: 600px) {
+//   .showcase {
+//     h3 {
+//       font-size: 2em;
+//     }
+//     h2 {
+//       font-size: 3em;
+//     }
+//   }
+// }
+
+// @media (max-width: 768px) {
+//   .showcase {
+//     h3 {
+//       font-size: 2em;
+//     }
+//     h2 {
+//       font-size: 3.5em;
+//     }
+//   }
+// }
+
+// @media (min-width: 992px) {
+//   .showcase {
+//     h3 {
+//       font-size: 6em;
+//     }
+//     h2 {
+//       font-size: 7em;
+//     }
+//   }
+// }
+
+// @media only screen and (min-width: 1200px) {
+//   .showcase {
+//     h3 {
+//       font-size: 3em;
+//     }
+//     h2 {
+//       font-size: 9em;
+//     }
+//   }
+// }

@@ -1,0 +1,29 @@
+.about {
+  figure {
+    p,
+    i {
+      position: absolute;
+      font-weight: 700;
+      opacity: 0;
+    }
+  }
+  figure:hover {
+    .overlay {
+      opacity: 0.8;
+    }
+    i {
+      top: 35%;
+      left: 47%;
+      opacity: 1;
+      color: #fff;
+    }
+    p {
+      top: 45%;
+      left: 37%;
+      opacity: 1;
+      color: #fff;
+      font-size: 1.1rem;
+    }
+    box-shadow: 5px 10px $secondary-color;
+  }
+}

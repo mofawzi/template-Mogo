@@ -1,0 +1,28 @@
+.footer {
+  .footer__links {
+    p,
+    ul {
+      padding-left: 0;
+      &,
+      li {
+        display: inline-block;
+        a {
+          color: $secondary-color;
+          padding: 0 0.5rem;
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+  .input-group {
+    button {
+      background-color: $secondary-color;
+      color: #fff;
+    }
+  }
+  .instagram {
+    figure {
+      margin: 0.1rem;
+    }
+  }
+}

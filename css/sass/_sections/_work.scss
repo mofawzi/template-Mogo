@@ -1,0 +1,41 @@
+.work {
+  .overlay__content {
+    i,
+    h6,
+    p {
+      position: absolute;
+      color: #fff;
+      opacity: 0;
+    }
+
+    i {
+      top: 35%;
+      left: 45%;
+      font-size: 1.5rem;
+    }
+    h6 {
+      top: 45%;
+      left: 25%;
+    }
+    p {
+      top: 55%;
+      left: 28%;
+    }
+  }
+  figure {
+    margin: 0;
+    position: relative;
+    &:hover {
+      .overlay {
+        opacity: 0.8;
+      }
+      .overlay__content {
+        i,
+        p,
+        h6 {
+          opacity: 0.8;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="Author" content="Mohamed Fawzy" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MOGO</title>
+
+    <!-- Font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+
+    <!-- Fonst -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@300;400;500;700&family=Roboto:ital,wght@0,300;0,400;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Styling -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+
+  <body>
+    <!-- TODO: Navbar bgc on scrolling -->
+    <!-- Header Start -->
+    <header class="header">
+      <!-- Navbar Start -->
+      <nav
+        class="navbar navbar-expand-lg fixed-top pt-2 bg-transparent navbar-dark"
+      >
+        <div class="container p-1">
+          <div class="row justify-content-between w-100">
+            <a class="navbar-brand" href="#"
+              ><img src="./img/logo.png" alt="Logo"
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto ml-auto mb-2 mb-lg-0">
+                <li class="nav-item text-uppercase pl-4">
+                  <a class="nav-link active" href="#">About</a>
+                </li>
+                <li class="nav-item text-uppercase pl-4">
+                  <a class="nav-link" href="#">Service</a>
+                </li>
+                <li class="nav-item text-uppercase pl-4">
+                  <a class="nav-link" href="#">Work</a>
+                </li>
+                <li class="nav-item text-uppercase pl-4">
+                  <a class="nav-link" href="#">Blog </a>
+                </li>
+                <li class="nav-item text-uppercase pl-4">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+
+                <li class="nav-item text-uppercase pl-4">
+                  <a class="nav-link" href="#"
+                    ><i class="fas fa-shopping-cart"></i
+                  ></a>
+                </li>
+
+                <li class="nav-item text-uppercase pl-2">
+                  <a class="nav-link" href="#"><i class="fas fa-search"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar End -->
+
+      <!-- Showcase Start -->
+      <div class="showcase">
+        <div class="container">
+          <div class="row mt-5 no-gutters">
+            <div class="col-12">
+              <div
+                id="cauroselIndicator"
+                class="carousel slide mx-3"
+                data-ride="carousel"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <h3>Creative Template</h3>
+                    <h2 class="text-uppercase">Welcome</h2>
+                    <h2 class="text-uppercase">to Mogo</h2>
+                  </div>
+                  <div class="carousel-item">
+                    <h3>Creative Template</h3>
+                    <h2 class="text-uppercase">Welcome</h2>
+                    <h2 class="text-uppercase">to Mogo</h2>
+                  </div>
+                  <div class="carousel-item">
+                    <h3>Creative Template</h3>
+                    <h2 class="text-uppercase">Welcome</h2>
+                    <h2 class="text-uppercase">to Mogo</h2>
+                  </div>
+                  <div class="carousel-item">
+                    <h3>Creative Template</h3>
+                    <h2 class="text-uppercase">Welcome</h2>
+                    <h2 class="text-uppercase">to Mogo</h2>
+                  </div>
+                </div>
+                
+              </div>
+              <div class="button_wrapper">
+                <a href="#" class="showcase__btn text-uppercase">Learn More</a>
+              </div>
+              <ol class="carousel-indicators mx-0 px-0">
+                  <li
+                    data-target="#cauroselIndicator"
+                    data-slide-to="0"
+                    class="active w-25 mr-3"
+                  ></li>
+                  <li data-target="#cauroselIndicator" class="w-25 mr-3" data-slide-to="1"></li>
+                  <li data-target="#cauroselIndicator" class="w-25 mr-3" data-slide-to="2"></li>
+                  <li data-target="#cauroselIndicator" class="w-25 mr-3" data-slide-to="3"></li>
+                </ol>
+                <div class="text-left d-flex">
+                  <p class="w-25 pl-1 text-uppercase"> <span class="font-weight-bold">01</span>  Intro</p>
+                  <p class="w-25 pl-1 text-uppercase"> <span class="font-weight-bold">02</span>  Work</p>
+                  <p class="w-25 pl-1 text-uppercase"> <span class="font-weight-bold">03</span>  About</p>
+                  <p class="w-25 pl-1 text-uppercase"> <span class="font-weight-bold">04</span>  Contacts</p>
+                  
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Showcase End -->
+
+    </header>
+    <!-- Header End -->
+
+    <!-- About Start -->
+    <section class="about">
+      <div class="container">
+        <div class="row">
+          <div class="section-heading">
+            <h3>What we do</h3>
+            <h2 class="text-uppercase">services about us</h2>
+            <p class="text-muted">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+        </div>
+
+        <div class="row pt-5">
+          <div class="col-sm-12 mt-sm-3 col-md-6 col-lg-4">
+            <figure class="about__img-wrapper">
+              <div class="overlay"></div>
+              <i class="fas fa-user-friends"></i>
+              <p class="text-uppercase">super team</p>
+              <img src="./img/ab1.jpg" alt="about image" />
+            </figure>
+          </div>
+          <div class="col-sm-12 mt-sm-3 col-md-6 col-lg-4">
+            <figure class="about__img-wrapper">
+              <div class="overlay"></div>
+              <i class="fas fa-user-friends"></i>
+              <p class="text-uppercase">super team</p>
+              <img src="./img/ab2.jpg" alt="about image" />
+            </figure>
+          </div>
+          <div class="col-sm-12 mt-sm-3 col-md-6 mt-md-3 col-lg-4">
+            <figure class="about__img-wrapper">
+              <div class="overlay"></div>
+              <i class="fas fa-user-friends"></i>
+              <p class="text-uppercase">super team</p>
+              <img src="./img/ab3.jpg" alt="about image" />
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About End -->
+
+    <!-- Numbers Start -->
+    <section class="numbers">
+      <div class="container">
+        <div class="row justify-content-around no-gutters">
+          <div class="col-sm-12 col-md-6 col-lg-2 py-5">
+            <h2>42</h2>
+            <h3 class="text-uppercase">Web Design Projects</h3>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-2 py-5">
+            <h2>123</h2>
+            <h3 class="text-uppercase">Happy clients</h3>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-2 py-5">
+            <h2>15</h2>
+            <h3 class="text-uppercase">Award winner</h3>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-2 py-5">
+            <h2>99</h2>
+            <h3 class="text-uppercase">Cup of coffee</h3>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-2 py-5">
+            <h2>24</h2>
+            <h3 class="text-uppercase">Members</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Numbers End -->
+
+    <!-- Services Start -->
+    <section class="services pt-5">
+      <div class="container">
+        <div class="section-heading">
+          <h3>We work with</h3>
+          <h2 class="text-uppercase">Amazing services</h2>
+        </div>
+
+        <div class="row no-gutters">
+          <div class="col-xs-12 col-lg-4 d-flex align-items-start">
+            <div class="icon__wrapper">
+              <i class="far fa-clock"></i>
+            </div>
+            <div class="services__content">
+              <h3 class="text-uppercase">Photography</h3>
+              <p class="text-muted">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-lg-4 d-flex align-items-start">
+            <div class="icon__wrapper">
+              <i class="fas fa-tv"></i>
+            </div>
+            <div class="services__content">
+              <h3 class="text-uppercase">web design</h3>
+              <p class="text-muted">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-lg-4 d-flex align-items-start">
+            <div class="icon__wrapper">
+              <i class="fas fa-pencil-alt"></i>
+            </div>
+            <div class="services__content">
+              <h3 class="text-uppercase">creativity</h3>
+              <p class="text-muted">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <hr />
+
+        <div class="row no-gutters mt-4">
+          <div class="col-xs-12 col-lg-4 d-flex align-items-start">
+            <div class="icon__wrapper">
+              <i class="fas fa-align-justify"></i>
+            </div>
+            <div class="services__content">
+              <h3 class="text-uppercase">seo</h3>
+              <p class="text-muted">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-lg-4 d-flex align-items-start">
+            <div class="icon__wrapper">
+              <i class="fas fa-align-justify"></i>
+            </div>
+            <div class="services__content">
+              <h3 class="text-uppercase">css/html</h3>
+              <p class="text-muted">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-lg-4 d-flex align-items-start">
+            <div class="icon__wrapper">
+              <i class="fas fa-align-justify"></i>
+            </div>
+            <div class="services__content">
+              <h3 class="text-uppercase">digital</h3>
+              <p class="text-muted">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services End -->
+
+    <!-- Design Start -->
+    <section class="design mt-5">
+      <div class="container">
+        <div class="section-heading pt-5">
+          <h3>For all devices</h3>
+          <h2 class="text-uppercase">Unique Design</h2>
+        </div>
+        <div class="row">
+          <figure class="design__img-1">
+            <img src="/img/device1.png" alt="Device 1 img" />
+          </figure>
+          <figure class="design__img-2">
+            <img src="/img/device2.png" alt="Device 2 img" />
+          </figure>
+        </div>
+      </div>
+    </section>
+    <!-- Design End -->
+
+    <!-- Service Start -->
+    <section class="service pt-3">
+      <div class="container">
+        <div class="section-heading mb-4">
+          <h3>Service</h3>
+          <h2 class="text-uppercase">What we do</h2>
+          <p class="text-muted">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+        </div>
+
+        <div class="row mt-5">
+          <div class="col-sm-12 col-lg-6">
+            <figure class="img__wrapper">
+              <img src="/img/doservice.jpg" alt="Do service img" />
+            </figure>
+          </div>
+
+          <div class="col-sm-12 col-lg-6">
+            <div class="accordion" id="accordionExample">
+              <div class="card">
+                <div class="card-header" id="headingOne">
+                  <h2 class="mb-0">
+                    <button
+                      class="btn btn-block text-left text-uppercase"
+                      type="button"
+                      data-toggle="collapse"
+                      data-target="#collapseOne"
+                      aria-expanded="true"
+                      aria-controls="collapseOne"
+                    >
+                    <div class="row">
+                      <i class="far fa-image"></i>
+                      Photography
+                      <i class="fas fa-chevron-up ml-auto"></i>
+                    </div>
+                    </button>
+                  </h2>
+                </div>
+
+                <div
+                  id="collapseOne"
+                  class="collapse show"
+                  aria-labelledby="headingOne"
+                  data-parent="#accordionExample"
+                >
+                  <div class="card-body text-muted text-left">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit.
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-header" id="headingTwo">
+                  <h2 class="mb-0">
+                    <button
+                      class="btn btn-block text-left collapsed text-uppercase"
+                      type="button"
+                      data-toggle="collapse"
+                      data-target="#collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo"
+                    >
+
+                      <div class="row">
+                      <i class="fas fa-bullseye"></i>
+                      Creativity
+                      <i class="fas fa-chevron-up ml-auto"></i>
+                    </div>
+                      
+                    </button>
+                  </h2>
+                </div>
+                <div
+                  id="collapseTwo"
+                  class="collapse"
+                  aria-labelledby="headingTwo"
+                  data-parent="#accordionExample"
+                >
+                  <div class="card-body">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit.
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h2 class="mb-0">
+                    <button
+                      class="btn btn-block text-left collapsed text-uppercase"
+                      type="button"
+                      data-toggle="collapse"
+                      data-target="#collapseThree"
+                      aria-expanded="false"
+                      aria-controls="collapseThree"
+                    >
+                    <div class="row">
+                      <i class="fas fa-bullseye"></i>
+                      Web design
+                      <i class="fas fa-chevron-up ml-auto"></i>
+                    </div>
+                      
+                    </button>
+                  </h2>
+                </div>
+                <div
+                  id="collapseThree"
+                  class="collapse"
+                  aria-labelledby="headingThree"
+                  data-parent="#accordionExample"
+                >
+                  <div class="card-body">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Service End -->
+
+    <!-- TODO: Arrows -->
+    <!-- Quote Start -->
+    <section class="quote mt-5 py-5">
+      <div class="container">
+
+        <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row w-75 mx-auto text-left">
+              <div class="cols-sm-12 col-lg-2">
+                <figure>
+                  <img
+                    src="/img/comment.png"
+                    class="mr-3"
+                    alt="Comment image"
+                  />
+                </figure>
+              </div>
+              <div class="cols-sm-12 col-lg-10">
+                <h4 class="text-muted font-weight-normal font-italic mt-2">
+              “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation.”
+            </h4>
+            <p>Jon Doe</p>
+              </div>
+            </div>
+          </div>
+
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleControls"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleControls"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+
+
+        <!-- <div class="row text-left">
+          <div class="col-2">
+            <figure>
+              <img src="/img/comment.png" alt="Comment image" />
+            </figure>
+          </div>
+
+          <div class="col-10">
+            <h4 class="text-muted font-weight-normal font-italic mt-2">
+              “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation.”
+            </h4>
+            <p>Jon Doe</p>
+          </div>
+        </div> -->
+      </div>
+    </section>
+    <!-- Quote End -->
+
+    <!-- Team Start -->
+    <section class="team mt-5">
+      <div class="container">
+        <div class="section-heading mb-4">
+          <h3>Who we are</h3>
+          <h2 class="text-uppercase">Meet our team</h2>
+          <p class="text-muted">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+        </div>
+
+        <div class="row mt-5">
+          <div class="col-xs-12 col-lg-4">
+            <div class="card border-0">
+              <figure>
+                <div class="overlay"></div>
+                <img
+                  src="/img/team/team1.jpg"
+                  class="card-img-top"
+                  alt="Team member"
+                />
+                <ul class="d-flex">
+                  <li>
+                    <a href="#" class="active">
+                      <i class="fab fa-facebook-f"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                  </li>
+                </ul>
+              </figure>
+              <div class="card-body">
+                <h5 class="card-text font-weight-bold text-uppercase">
+                  Matthew Dix
+                </h5>
+                <p class="text-muted">Graphic Design</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-lg-4">
+            <div class="card border-0">
+              <figure>
+                <div class="overlay"></div>
+                <img
+                  src="/img/team/team2.jpg"
+                  class="card-img-top"
+                  alt="Team member"
+                />
+                <ul class="d-flex">
+                  <li>
+                    <a href="#" class="active">
+                      <i class="fab fa-facebook-f"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                  </li>
+                </ul>
+              </figure>
+              <div class="card-body">
+                <h5 class="card-text font-weight-bold text-uppercase">
+                  Christopher campbell
+                </h5>
+                <p class="text-muted">Branding/UX design</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-lg-4">
+            <div class="card border-0">
+              <figure>
+                <div class="overlay"></div>
+                <img
+                  src="/img/team/team3.jpg"
+                  class="card-img-top"
+                  alt="Team member"
+                />
+                <ul class="d-flex">
+                  <li>
+                    <a href="#" class="active">
+                      <i class="fab fa-facebook-f"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                  </li>
+                </ul>
+              </figure>
+              <div class="card-body">
+                <h5 class="card-text font-weight-bold text-uppercase">
+                  Michael fertig
+                </h5>
+                <p class="text-muted">Developer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Team End -->
+
+    <!-- Brands Start -->
+    <section class="brands">
+      <div class="container">
+        <div class="row flex-wrap align-items-center justify-content-between">
+          <div class="col-xs-6 col-md-2 col-lg-2 mb-5">
+            <figure class="brand__img-container">
+              <img src="/img/brands/brand1.png" alt="brand 1" />
+            </figure>
+          </div>
+
+          <div class="col-xs-6 col-md-2 col-lg-2 mb-5">
+            <figure class="brand__img-container">
+              <img src="/img/brands/brand2.png" alt="brand 2" />
+            </figure>
+          </div>
+
+          <div class="col-xs-6 col-md-2 col-lg-2 mb-5">
+            <figure class="brand__img-container">
+              <img src="/img/brands/brand3.png" alt="brand 3" />
+            </figure>
+          </div>
+
+          <div class="col-xs-6 col-md-2 col-lg-2 mb-5">
+            <figure class="brand__img-container">
+              <img src="/img/brands/brand4.png" alt="brand 4" />
+            </figure>
+          </div>
+
+          <div class="col-xs-6 col-md-2 col-lg-2 mb-5">
+            <figure class="brand__img-container">
+              <img src="/img/brands/brand5.png" alt="brand 5" />
+            </figure>
+          </div>
+
+          <div class="col-xs-6 col-md-2 col-lg-2 mb-5">
+            <figure class="brand__img-container">
+              <img src="/img/brands/brand6.png" alt="brand 6" />
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Brands End -->
+
+    <!-- Work Start -->
+    <section class="work mt-5">
+      <div class="container">
+        <div class="section-heading mb-4">
+          <h3>What we do</h3>
+          <h2 class="text-uppercase">Some of our work</h2>
+          <p class="text-muted">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+        </div>
+      </div>
+      <div class="row no-gutters">
+        <div class="col-xs-6 col-lg-3">
+          <figure class="w-100">
+            <div class="overlay"></div>
+            <img src="/img/work/pf1.jpg" alt="Work image" />
+            <div class="overlay__content">
+              <i class="far fa-image"></i>
+              <h6 class="text-uppercase">Creatively designed</h6>
+              <p class="font-italic">Lorem ipsum dolor sit</p>
+            </div>
+          </figure>
+          <figure class="w-100">
+            <div class="overlay"></div>
+            <img src="/img/work/pf2.jpg" alt="Work image" />
+            <div class="overlay__content">
+              <i class="far fa-image"></i>
+              <h6 class="text-uppercase">Creatively designed</h6>
+              <p class="font-italic">Lorem ipsum dolor sit</p>
+            </div>
+          </figure>
+        </div>
+
+        <div class="col-xs-6 col-lg-3">
+          <figure class="w-100">
+            <div class="overlay"></div>
+            <img src="/img/work/pf1.jpg" alt="Work image" />
+            <div class="overlay__content">
+              <i class="far fa-image"></i>
+              <h6 class="text-uppercase">Creatively designed</h6>
+              <p class="font-italic">Lorem ipsum dolor sit</p>
+            </div>
+          </figure>
+          <figure class="w-100">
+            <div class="overlay"></div>
+            <img src="/img/work/pf6.jpg" alt="Work image" />
+            <div class="overlay__content">
+              <i class="far fa-image"></i>
+              <h6 class="text-uppercase">Creatively designed</h6>
+              <p class="font-italic">Lorem ipsum dolor sit</p>
+            </div>
+          </figure>
+        </div>
+
+        <div class="col-xs-6 col-lg-3">
+          <figure class="w-100 h-100">
+            <div class="overlay"></div>
+            <img src="/img/work/pf3.jpg" alt="Work image" />
+            <div class="overlay__content">
+              <i class="far fa-image"></i>
+              <h6 class="text-uppercase">Creatively designed</h6>
+              <p class="font-italic">Lorem ipsum dolor sit</p>
+            </div>
+          </figure>
+        </div>
+
+        <div class="col-xs-6 col-lg-3">
+          <figure class="w-100">
+            <div class="overlay"></div>
+            <img src="/img/work/pf4.jpg" alt="Work image" />
+            <div class="overlay__content">
+              <i class="far fa-image"></i>
+              <h6 class="text-uppercase">Creatively designed</h6>
+              <p class="font-italic">Lorem ipsum dolor sit</p>
+            </div>
+            <div></div>
+          </figure>
+          <figure class="w-100">
+            <div class="overlay"></div>
+            <img src="/img/work/pf7.jpg" alt="Work image" />
+            <div class="overlay__content">
+              <i class="far fa-image"></i>
+              <h6 class="text-uppercase">Creatively designed</h6>
+              <p class="font-italic">Lorem ipsum dolor sit</p>
+            </div>
+          </figure>
+        </div>
+      </div>
+    </section>
+    <!-- Work End -->
+    
+    <!-- TODO: Arrows -->
+    <!-- Quotes Start -->
+    <section class="quotes py-5">
+       <div class="container">
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row w-75 mx-auto text-left">
+              <div class="cols-sm-12 col-lg-2">
+                <figure>
+                  <img
+                    src="/img/test1.jpg"
+                    class="mr-3 rounded-circle"
+                    alt="A man image"
+                  />
+                </figure>
+              </div>
+              <div class="cols-sm-12 col-lg-10">
+                <h4 class="text-muted font-weight-normal font-italic mt-2">
+                  “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation.”
+                </h4>
+                <p>Joshua Earle</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="row w-75 mx-auto text-left">
+              <div class="cols-sm-12 col-lg-2">
+                <figure>
+                  <img
+                    src="/img/test1.jpg"
+                    class="mr-3 rounded-circle"
+                    alt="A man image"
+                  />
+                </figure>
+              </div>
+              <div class="cols-sm-12 col-lg-10">
+                <h4 class="text-muted font-weight-normal font-italic mt-2">
+                  “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation.”
+                </h4>
+                <p>Joshua Earle</p>
+              </div>
+            </div>
+          </div>
+
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleControls"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleControls"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+    </section>
+    <!-- Quotes End -->
+
+    <!-- Clients Start -->
+    <section class="clients py-5">
+      <div class="container">
+        <div class="section-heading mb-4">
+          <h3>Happy clients</h3>
+          <h2 class="text-uppercase">What people say</h2>
+        </div>
+
+        <div class="row justify-content-between">
+
+          <div class="col-sm-12 col-lg-6">
+            <div class="media">
+              <figure class="mr-4 mr-lg-5 w-25">
+                <img src="/img/clients/cl1.jpg" class="align-self-start rounded-circle mr-3" alt="">
+              </figure>
+              
+              <div class="media-body text-left">
+                <div class="client__heading">
+                  <h5 class="mt-0 text-uppercase">Matthew Dix</h5>
+                <p class="text-muted">Graphic Design</p>
+                </div>
+                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-lg-6 pl-lg-5">
+            <div class="media">
+              <figure class="mr-4 mr-lg-5 w-25">
+                <img src="/img/clients/cl2.jpg" class="align-self-start rounded-circle mr-3" alt="">
+              </figure>
+              
+              <div class="media-body text-left">
+                <div class="client__heading">
+                  <h5 class="mt-0 text-uppercase">Nick Karvounis</h5>
+                <p class="text-muted">Graphic Design</p>
+                </div>
+                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-lg-6">
+            <div class="media">
+              <figure class="mr-4 mr-lg-5 w-25">
+                <img src="/img/clients/cl3.jpg" class="align-self-start rounded-circle mr-3" alt="">
+              </figure>
+              
+              <div class="media-body text-left">
+                <div class="client__heading">
+                  <h5 class="mt-0 text-uppercase">Jaelynn Castillo </h5>
+                <p class="text-muted">Graphic Design</p>
+                </div>
+                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-lg-6 pl-lg-5">
+            <div class="media">
+              <figure class="mr-4 mr-lg-5 w-25">
+                <img src="/img/clients/cl4.jpg" class="align-self-start rounded-circle mr-3" alt="">
+              </figure>
+              
+              <div class="media-body text-left">
+                <div class="client__heading">
+                  <h5 class="mt-0 text-uppercase">Mike Petrucci</h5>
+                <p class="text-muted">Graphic Design</p>
+                </div>
+                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- Clients End -->
+
+    <!-- Blog Start -->
+    <section class="blog py-5">
+      <div class="container">
+        <div class="section-heading mb-4">
+          <h3>Our stories</h3>
+          <h2 class="text-uppercase">Latest blog</h2>
+        </div>
+        <div class="row">
+
+          <div class="col-sm-12 mb-sm-5 col-lg-4">
+            <div class="card border-0">
+              <figure>  
+                <img src="/img/blog/blog1.jpg" class="card-img-top"  alt="Blog image">
+                <div class="calender">
+                  <h3>15</h3>
+                  <p>Jan</p>
+                </div>
+              </figure>
+              
+              <div class="card-body p-0 text-left">
+                <h5 class="text-uppercase">Lorem ipsum dolor sit amet</h5>
+                <p class="card-text text-muted">
+                  Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+
+                <div class="icons flex-row justify-content-end">
+                  <i class="fas fa-eye"></i> 
+                  <span class="text-muted">542</span>
+                  <i class="fas fa-comment-dots ml-4"></i>
+                  <span class="text-muted">17</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 mb-sm-5 col-lg-4">
+            <div class="card border-0">
+              <figure>  
+                <img src="/img/blog/blog2.jpg" class="card-img-top"  alt="Blog image">
+                <div class="calender">
+                  <h3>14</h3>
+                  <p>Jan</p>
+                </div>
+              </figure>
+              
+              <div class="card-body p-0 text-left">
+                <h5 class="text-uppercase">sed do eiusmod tempor</h5>
+                <p class="card-text text-muted">
+                  Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+
+                <div class="icons flex-row justify-content-end">
+                  <i class="fas fa-eye"></i> 
+                  <span class="text-muted">992</span>
+                  <i class="fas fa-comment-dots ml-4"></i>
+                  <span class="text-muted">42</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 mb-sm-5 col-lg-4">
+            <div class="card border-0">
+              <figure>  
+                <img src="/img/blog/blog3.jpg" class="card-img-top" alt="Blog image">
+                <div class="calender">
+                  <h3>12</h3>
+                  <p>Jan</p>
+                </div>
+              </figure>
+              
+              <div class="card-body p-0 text-left">
+                <h5 class="text-uppercase">incididunt ut labore et dolore</h5>
+                <p class="card-text text-muted">
+                  Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+
+                <div class="icons flex-row justify-content-end">
+                  <i class="fas fa-eye"></i> 
+                  <span class="text-muted">1560</span>
+                  <i class="fas fa-comment-dots ml-4"></i>
+                  <span class="text-muted">98</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- Blog End -->
+
+    <!-- Map Start -->
+    <section class="map py-4">
+      <div class="container">
+        <div class="section-heading mb-4">
+          <i class="fas fa-map-marker-alt"></i>
+          <h2 class="text-uppercase">Open map</h2>
+        </div>
+      </div>
+    </section>
+    <!-- Map End -->
+
+    <!-- Footer Start -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row no-gutters">
+          <div class="col-sm-12 col-lg-5 pr-lg-4 text-left">
+            <figure class="w-25 my-5">
+              <img src="/img/footer/footerlogo.png" alt="">
+            </figure>
+
+            <p class="text-muted">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            </p>
+            <p class="mt-4"><span class=" font-weight-bold">15k</span> followers</p>
+
+            <hr>
+
+            <div class="footer__links flex-row">
+              <p class="text-muted">
+              Follow us: 
+              </p>
+              <ul>
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fas fa-globe"></i></a></li>
+                <li><a href="#"><i class="fab fa-tumblr"></i></a></li>
+              </ul>
+            </div>
+
+            <div class="input-group mt-3">
+              <input type="text" class="form-control" placeholder="Your Email" aria-label="Email" aria-describedby="email-subscribe">
+
+              <div class="input-group-append w-50">
+                <button class="btn btn-outline-secondary px-4 font-weight-bolder text-uppercase" type="button" id="email-subscribe">Subscribe</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-lg-4 pr-lg-4 text-left pt-5">
+            <h5 class="text-uppercase mb-5">Blogs</h5>
+            <div class="row text-left">
+              <div class="col-12 text-left">
+                <div class="media">
+                  <figure>  
+                    <img src="/img/footer/fb1.jpg" class="align-self-start" alt="">
+                  </figure> 
+                  <div class="media-body ml-4 align-self-center ">
+                    <p class="font-weight-bold m-0">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                    <p class="text-muted mt-2">Jan 9, 2016</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 text-left">
+                <div class="media">
+                  <figure>
+                    <img src="/img/footer/fb2.jpg" class="align-self-start" alt="">
+                  </figure> 
+                  <div class="media-body ml-4 align-self-center ">
+                    <p class="font-weight-bold m-0">Consectetur adipiscing elit, sed do eiusmod tempor</p>
+                    <p class="text-muted mt-2">Jan 9, 2016</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 text-left">
+                <div class="media">
+                  <figure>  
+                    <img src="/img/footer/fb3.jpg" class="align-self-start" alt="">
+                  </figure> 
+                  <div class="media-body ml-4 align-self-center ">
+                    <p class="font-weight-bold m-0">sed do eiusmod tempor incididunt ut labore</p>
+                    <p class="text-muted mt-2">Jan 9, 2016</p>
+                  </div>
+                </div>
+              </div>
+            </div> 
+          </div>
+
+          <div class="instagram col-sm-12 col-lg-3 text-left pt-5">
+            <h5 class="text-uppercase mb-5">Instagram</h5>
+
+              <div class="row row-cols-sm-6 row-cols-lg-3  justify-content-md-center no-gutters">
+                <div class="col-sm-6 col-lg"><figure><img src="/img/footer/fg1.jpg" alt="Instagram picture"></figure></div>
+                <div class="col-sm-6 col-lg"><figure><img src="/img/footer/fg2.jpg" alt="Instagram picture"></figure></div>
+                <div class="col-sm-6 col-lg"><figure><img src="/img/footer/fg3.jpg" alt="Instagram picture"></figure></div>
+                <div class="col-sm-6 col-lg"><figure><img src="/img/footer/fg4.jpg" alt="Instagram picture"></figure></div>
+                <div class="col-sm-6 col-lg"><figure><img src="/img/footer/fg5.jpg" alt="Instagram picture"></figure></div>
+                <div class="col-sm-6 col-lg"><figure><img src="/img/footer/fg6.jpg" alt="Instagram picture"></figure></div>
+                <div class="col-sm-6 col-lg"><figure><img src="/img/footer/fg7.jpg" alt="Instagram picture"></figure></div>
+                <div class="col-sm-6 col-lg"><figure><img src="/img/footer/fg8.jpg" alt="Instagram picture"></figure></div>
+                <div class="col-sm-6 col-lg"><figure><img src="/img/footer/fg9.jpg" alt="Instagram picture"></figure></div>
+              </div>
+
+              <p class="pt-1 text-muted font-italic">View more photos</p>
+          </div>
+
+        </div>
+
+        <hr>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Bootstrap script files -->
+    <script src="./js/jquery-3.5.1.slim.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+  </body>
+</html>

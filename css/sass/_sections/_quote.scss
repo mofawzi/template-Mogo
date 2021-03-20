@@ -1,0 +1,14 @@
+.quote {
+  background-color: #f8f8f8;
+  h4 {
+    font-size: 1.5rem;
+  }
+  p {
+    &::before {
+      @include p-line;
+    }
+    font-family: "Kaushan Script";
+    margin-top: 1rem;
+    font-size: 2rem;
+  }
+}

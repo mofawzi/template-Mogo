@@ -1,0 +1,19 @@
+.numbers {
+  background-color: $secondary-color;
+  .container {
+    padding: 0;
+  }
+  color: #fff;
+  [class*="col-"] {
+    border-right: 1px solid rgba($color: #fff, $alpha: 0.2);
+  }
+  h2 {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 4rem;
+  }
+  h3 {
+    font-weight: 400;
+    font-size: 1rem;
+  }
+}

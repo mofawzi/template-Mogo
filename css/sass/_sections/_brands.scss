@@ -1,0 +1,10 @@
+.brands {
+  background-color: #f8f8f8;
+  img {
+    opacity: 0.8;
+    transition: 1s;
+    &:hover {
+      opacity: 1;
+    }
+  }
+}

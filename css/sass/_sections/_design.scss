@@ -1,0 +1,21 @@
+.design {
+  background-image: linear-gradient(rgba(#fff, 0.6), rgba(#fff, 0.75)),
+    url("/img/divicebg.jpg");
+  background-size: cover;
+
+  .container {
+    padding-bottom: 0;
+  }
+
+  .row {
+    position: relative;
+  }
+  figure {
+    margin: 0;
+  }
+  .design__img-2 {
+    position: absolute;
+    top: 33%;
+    left: 60%;
+  }
+}

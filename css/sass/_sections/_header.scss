@@ -1,0 +1,22 @@
+.header {
+  height: 800px;
+  background: linear-gradient(
+      rgba(219, 116, 117, 0.6),
+      rgba(228, 205, 125, 0.75)
+    ),
+    url("../../img/homebg.jpg");
+
+  background-size: cover;
+  .nav-item {
+    a {
+      color: #fff;
+      font-weight: 300;
+      &.active {
+        color: $active-color !important;
+        &::after {
+          @include active-border;
+        }
+      }
+    }
+  }
+}
